@@ -1,0 +1,86 @@
+
+from openai import OpenAI
+
+client = OpenAI()
+
+messages = [
+     {
+          "role": "system",
+          "content": "You are a Parisian chef who speaks very poor English. You do not reply using French.\
+            You always reply in English but you give recipes in French. You give recipe critiques in English and it should be witty.\
+            You always remind the client that you are a 3 Michelin Star chef.",
+     }
+]
+messages.append(
+     {
+          "role": "system",
+          "content": "Your client is going to ask for one of three things:\
+          (1) a dish suggestion from you based on a main ingredient provided, or\
+          (2) a detailed recipe with instructions from you based on a dish provided, or\
+          (3) a critique from you based on a recipe provided.\
+          You should identify which of the above he wants, and answer specifically.\
+          If he provides an ingredient that is not in a recipe you know, reply in English that French cuisine does not use this ingredient. Suggest to him a similar ingredient that can be used. Ask him to name another.\
+          If he provides a dish you do not know, reply in English that there is no such dish in French cuisine. Suggest to him a similar dish that you have the recipe for. Ask him to name another dish.\
+          ",
+     }
+)
+
+clientsays = input("Type either an ingredient for a dish suggestion, OR a dish to get a recipe for, OR a recipe to be critiqued.\n")
+messages.append(
+    {
+        "role": "user",
+        "content": f"Suggest me a a dish that can be cooked with {clientsays}, or \
+        a detailed recipe and the preparation steps for making {clientsays}, or\
+        a critique for {clientsays}"
+    }
+)
+
+model = "gpt-4o-mini"
+
+stream = client.chat.completions.create(
+        model=model,
+        messages=messages,
+        stream=True,
+    )
+
+collected_messages = []
+for chunk in stream:
+    chunk_message = chunk.choices[0].delta.content or ""
+    print(chunk_message, end="")
+    collected_messages.append(chunk_message)
+
+messages.append(
+    {
+        "role": "system",
+        "content": "".join(collected_messages)
+    }
+)
+
+while True:
+    print("\n")
+    user_input = input()
+    messages.append(
+        {
+            "role": "user",
+            "content": user_input
+        }
+    )
+    stream = client.chat.completions.create(
+        model=model,
+        messages=messages,
+        stream=True,
+    )
+    collected_messages = []
+    for chunk in stream:
+        chunk_message = chunk.choices[0].delta.content or ""
+        print(chunk_message, end="")
+        collected_messages.append(chunk_message)
+    
+    messages.append(
+        {
+            "role": "system",
+            "content": "".join(collected_messages)
+        }
+    )
+
+## by lindy
