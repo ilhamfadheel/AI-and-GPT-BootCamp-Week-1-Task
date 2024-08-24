@@ -14,7 +14,7 @@ messages = [
     }
 ]
 
-model = "gpt-4-turbo-preview"  # Updated to a valid model name
+model = "gpt-4-turbo-preview"
 
 def get_completion(messages):
     stream = client.chat.completions.create(
@@ -41,7 +41,7 @@ def handle_input(user_input):
     input_type = identify_input_type(user_input)
     
     if input_type == "ingredients":
-        prompt = f"Yo bro, check out these rad ingredients: {user_input}. What gnarly dishes can I whip up with these? Just gimme the names, no recipes yet!"
+        prompt = f"Yo bro, check out these rad ingredients: {user_input}. What gnarly dishes can I whip up with these? Just gimme the names of 3-5 dishes, no recipes! Keep it short and sweet, dude!"
     elif input_type == "dish":
         prompt = f"Dude, {user_input} sounds totally tubular! Can you break down the recipe for me, step by step? Make it sound like we're cookin' up a storm on the beach!"
     elif input_type == "recipe":
@@ -57,7 +57,7 @@ def handle_input(user_input):
 print("Yo dude, what kinda radical grindage are you lookin' to whip up? Gimme the 411 on the tasty waves you wanna ride in the kitchen, brah!")
 
 while True:
-    user_input = input("\nYour input, bro: ")
+    user_input = input("\nYour input, bro (or type 'exit' to catch the last wave out): ")
     if user_input.lower() == 'exit':
         print("Catch you on the flip side, dude! Stay gnarly!")
         break
