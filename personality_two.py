@@ -12,16 +12,16 @@ messages = [
 messages.append(
      {
           "role": "system",
-          "content": "Your client is going to ask for dishes name that can be made with the ingredients that they provide. Do not answer if you do not know what dish(es) to make with the provided ingredients the client make.",
+          "content": "Your client is going to give the name of the dish. You should provide a detailed recipe and the preparation steps for making the dish.",
      }
 )
 
-ingredients = input("Type the ingredients that your dish(es) wish to include(s):\n")
+dish = input("Type the dish that you wish to make:\n")
 
 messages.append(
     {
         "role": "user",
-        "content": f"Suggest me a dishes that requires the ingredients of {ingredients}"
+        "content": f"Suggest me a detailed recipe and the preparation steps for making a dish called {dish}"
     }
 )
 

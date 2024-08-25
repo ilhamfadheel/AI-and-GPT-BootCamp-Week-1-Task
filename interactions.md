@@ -18,28 +18,65 @@ Your input, bro (or type 'exit' to catch the last wave out):
 
 ## Interaction 2: Ilham
 
-Yo dude, what kinda radical grindage are you lookin' to whip up? Gimme the 411 on the tasty waves you wanna ride in the kitchen, brah!
+Type the dish that you wish to make:
+Chicken Milk Gravy Over Toast
+Absolutely! As a rising star in the MasterChef competition, I'm excited to share with you a unique and delightful recipe for Chicken Milk Gravy Over Toast. This dish is a perfect blend of flavors and textures that will truly impress any judge or dinner guest. Let’s dive in!
 
-Your input, bro (or type 'exit' to catch the last wave out): I want a Chicken Milk Gravy over Toast
-Aw, dude, you're speaking my language! Chicken Milk Gravy over Toast is like catching a perfect morning wave under that golden Cali sun. It's a classic, comforting dish with that creamy, dreamy gravy paddling over toast like a smooth ride back to the shore. Let's hang ten in the kitchen and whip this up, surfer style!
+### Chicken Milk Gravy Over Toast
 
-### Ingredients:
-- **4 tablespoons of unsalted butter** - That's like the wax for your surfboard, keeps everything smooth.
-- **1/4 cup all-purpose flour** - This is the sand; it's going to mix with our butter to create the base of our gravy.
-- **2 cups milk** - Cowabunga, this is the ocean, making our gravy wave totally rad.
-- **1 cup cooked, shredded chicken** - Fresh off the farm, provides the righteous flavor.
-- **Salt and pepper** - The sunshine and salt air, seasoning to taste.
-- **4 slices of toast** - These are your surfboards, ready to ride the gravy wave.
+#### Ingredients:
 
-### Let's Get Cooking:
-1. **Start the Wave** - In a medium saucepan, melt your butter (wax your board) over medium heat. You want it melted but not browning, like that perfect moment when the sun hits the water at dawn.
+**For the Chicken:**
+- 2 boneless, skinless chicken breasts (about 1 lb)
+- 1 cup buttermilk
+- 1 teaspoon garlic powder
+- 1 teaspoon onion powder
+- 1 teaspoon paprika
+- Salt and pepper to taste
+- 1 tablespoon olive oil
 
-2. **Making Sand** - Whisk in the flour (our sand) until it blends with the butter like footprints on a beach. Cook it together for a couple of minutes until it's golden, stirring constantly like the tide rolls in and out.
+**For the Milk Gravy:**
+- 3 tablespoons butter
+- 3 tablespoons all-purpose flour
+- 2 cups whole milk
+- 1 chicken bouillon cube (optional)
+- Salt and pepper to taste
+- Optional spices: ½ teaspoon dried thyme or oregano
 
-3. **Riding the Wave** - Slowly add the milk (the ocean) while whisking continuously. This is where you catch the wave, dude. Keep that mixture moving until it starts to thicken. It's like paddling out; it takes effort but the ride back in is worth it.
+**For the Toast:**
+- 4 slices of rustic bread (like sourdough or ciabatta)
+- Butter, for spreading
 
-4. **Surf's Up** - Once your gravy starts to thicken and bubble (but not boiling, you don't want to wipe out), reduce the heat. Stir in your shredded chicken (catching the wave), and season with salt and pepper to taste. Let it simmer gently, soaking up the flavors like sun on the sand.
+**Garnish:**
+- Fresh parsley, chopped
 
-5. **Ride to Shore** - Spoon that creamy, chicken milk gravy over your toast (surfboards). Each bite should be like hanging ten on the tastiest wave ever.
+#### Preparation Steps:
 
-And there you have it! A dish that's totally tubular, sure to fill you up and keep the stoke high. It's like a morning surf session; it starts your day right and keeps you smiling, bro. Enjoy the ride! 🌊🍴🏄‍♂️
+**1. Marinate the Chicken:**
+   - In a bowl, combine the buttermilk, garlic powder, onion powder, paprika, salt, and pepper. Add the chicken breasts, ensuring they are well coated. Cover and marinate in the refrigerator for at least 1 hour, or overnight for best results.
+
+**2. Cook the Chicken:**
+   - Preheat your oven to 375°F (190°C). 
+   - In an oven-safe skillet, heat 1 tablespoon of olive oil over medium heat. Remove the chicken from the marinade and let any excess drip off before placing it in the skillet. 
+   - Sear the chicken for about 5 minutes on each side until golden brown.
+   - It is then finished in the oven for about 15 minutes or until the internal temperature reaches 165°F (75°C). Once done, let the chicken rest for a few minutes before slicing it into strips.
+
+**3. Prepare the Milk Gravy:**
+   - In a saucepan, melt the butter over medium heat. Once melted, sprinkle in the flour, whisking constantly to form a roux (cook for about 2 minutes, until light golden brown).
+   - Gradually add the milk while continuously whisking to avoid lumps. 
+   - If you’re using a bouillon cube, crumble it into the sauce at this point. Continue to whisk until the gravy thickens (about 5-7 minutes). 
+   - Season with salt, pepper, and optional dried herbs to taste. Remove from heat.
+
+**4. Toast the Bread:**
+   - While preparing the gravy, toast the slices of rustic bread on a skillet or toaster until golden and crispy. Once golden, spread a knob of butter on each slice.
+
+**5. Assemble the Dish:**
+   - Place the buttered toast on individual plates. Layer the sliced chicken on top of each piece of toast, followed by pouring a generous amount of milk gravy over the chicken.
+
+**6. Garnish:**
+   - Finally, sprinkle some freshly chopped parsley over the dish for color and freshness.
+
+**7. Serve and Enjoy:**
+   - Serve immediately while hot to maintain the comforting taste and texture that makes this dish so irresistible!
+
+There you have it! Chicken Milk Gravy Over Toast is a dish that perfectly balances savory and creamy flavors, all while being an absolute showstopper. Enjoy creating this dish and remember, cooking is all about experimenting and having fun!
