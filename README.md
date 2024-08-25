@@ -68,6 +68,11 @@ To consolidate the knowledge acquired this week, students should complete the fo
    - Comparative analysis of the different user prompts and their responses
 10. Submit your completed project through the designated submission form.
 
-> You should find your group in the [Discord](https://discord.gg/encodeclub) AI Bootcamp Channel
->
-> > If you can't find your group, please contact the program manager through Discord or email
+## Group 8 Participants
+
+| Unique id | Discord username |
+| --------- | ---------------- |
+| luGrR2    | @Joosh75         |
+| OskkTc    | @ilaminaty       |
+| vMu6AB    | @lindyhan        |
+|     |          |
